@@ -1,0 +1,13 @@
+.title.main {
+    background-color: yellow;
+    color: rgb(210, 44, 180);
+}
+
+.list .text {
+    background-color: rgb(210, 44, 180);
+    color: yellow;
+}
+
+.unordered-list {
+    line-height: 24px;
+}
