@@ -1,13 +1,25 @@
 .title.main {
     background-color: yellow;
     color: rgb(210, 44, 180);
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .list .text {
     background-color: rgb(210, 44, 180);
     color: yellow;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .unordered-list {
     line-height: 24px;
+}
+
+.ordered-list {
+    line-height: 24px;
+}
+
+.title.sub {
+    background-color: rgb(210, 44, 180);
+    color: yellow;
+    font-family: Helvetica, Arial, sans-serif;    
 }
