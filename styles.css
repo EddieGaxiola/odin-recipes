@@ -1,3 +1,36 @@
-body {
-    background-color: rgb(96, 59, 59);
+* {
+    background-color: blanchedalmond;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 500px;
+    height:auto;
+    border: 5px solid;
+    border-color: brown;
+}
+
+h1, h2, h3 {
+    color: rgb(93, 42, 42);
+}
+
+h1 {
+    font-size: 62px;
+    text-decoration: underline;
+}
+
+.links {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 42px;
+}
+h3 {
+    font-size: 32px;
+}
+
+p, li {
+    font-size: 24px;
 }
