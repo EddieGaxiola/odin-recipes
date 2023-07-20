@@ -1,6 +1,6 @@
 * {
-    background-color: blanchedalmond;
     color:black;
+    background-color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -22,6 +22,11 @@ h1 {
 
 .links {
     font-size: 42px;
+    display: inline-block;
+}
+
+li {
+    padding: 5px 0;
 }
 
 h2 {
@@ -34,3 +39,23 @@ h3 {
 p, li {
     font-size: 24px;
 }
+
+.card {
+    display: inline-block;
+    width: auto;
+    border-style: solid;
+    box-shadow: 3px 3px rgb(82, 2, 2);
+    border-width: 2px;
+    border-color: darkred;
+    padding: 10px;
+}
+
+.home-title {
+    display: inline-block;
+}
+
+li, .links, a, .card, .home-title {
+    background-color: blanchedalmond;
+}
+
+.oxtail-recipecard
