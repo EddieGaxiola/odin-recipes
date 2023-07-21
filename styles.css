@@ -9,6 +9,7 @@ img {
     height:auto;
     border: 5px solid;
     border-color: brown;
+    box-shadow: 3px 3px rgb(82, 2, 2);
 }
 
 h1, h2, h3 {
@@ -76,7 +77,11 @@ li, .links, a, div, .card, .home-title {
     display: inline-block;
 }
 
-/*makes description appear to the right of the title and image div */
+.res.card {
+    width: 1880px;
+}
+
+/*makes caldo de res description appear to the right of the title and image div */
 .res-description {
     display: inline-block;
     width: 600px;
@@ -85,4 +90,29 @@ li, .links, a, div, .card, .home-title {
     margin-top: 115px;
 }
 
-/* make 'steps' and 'ingredients' inline-block so that they are side-by-side */
+/* makes 'steps' and 'ingredients' inline-block so that they are side-by-side */
+.caldo-de-res-recipe {
+    display: inline-block;
+    width: center;
+}
+
+.res-ingredients, .res-steps {
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkred;
+    margin: 5px;
+    padding-right: 10px;
+    vertical-align: text-top;
+}
+
+.res-steps {
+    width: 890px;
+}
+.res-ul {
+    display: inline-block;
+}
+
+.ing-title, .steps-title {
+    text-align: center;
+}
