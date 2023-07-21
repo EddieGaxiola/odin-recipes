@@ -12,6 +12,7 @@ img {
 }
 
 h1, h2, h3 {
+    width: auto;
     color: rgb(93, 42, 42);
     background-color: blanchedalmond;
 }
@@ -42,6 +43,7 @@ p, ul, ol, li {
     background-color: blanchedalmond;
 }
 
+/* border wraps content and makes it inline-block */
 .card {
     display: inline-block;
     box-sizing: border-box;
@@ -61,10 +63,15 @@ li, .links, a, div, .card, .home-title {
 }
 
 .title-image {
-    max-width: 600px;
+    display: inline-block;
 }
 
-.caldo-de-res-recipe {
+.res-description {
     display: inline-block;
-    
+    width: 600px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 115px;
 }
+
+/* make steps and ingredients inline-block so that they are side-by-side */
