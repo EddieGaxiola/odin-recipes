@@ -13,6 +13,7 @@ img {
 
 h1, h2, h3 {
     color: rgb(93, 42, 42);
+    background-color: blanchedalmond;
 }
 
 h1 {
@@ -36,13 +37,14 @@ h3 {
     font-size: 32px;
 }
 
-p, li {
+p, ul, ol, li {
     font-size: 24px;
+    background-color: blanchedalmond;
 }
 
 .card {
     display: inline-block;
-    width: auto;
+    box-sizing: border-box;
     border-style: solid;
     box-shadow: 3px 3px rgb(82, 2, 2);
     border-width: 2px;
@@ -54,8 +56,15 @@ p, li {
     display: inline-block;
 }
 
-li, .links, a, .card, .home-title {
+li, .links, a, div, .card, .home-title {
     background-color: blanchedalmond;
 }
 
-.oxtail-recipecard
+.title-image {
+    max-width: 600px;
+}
+
+.caldo-de-res-recipe {
+    display: inline-block;
+    
+}
