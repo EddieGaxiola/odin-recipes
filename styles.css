@@ -23,8 +23,8 @@ h1 {
 }
 
 .links {
-    font-size: 42px;
     display: inline-block;
+    margin-right: 15px;
 }
 
 li {
@@ -54,8 +54,18 @@ p, ul, ol, li {
     padding: 10px;
 }
 
+.homepage {
+    display: inline-block;
+}
+
 .home-title {
     display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+a {
+    font-size: 32px;
 }
 
 li, .links, a, div, .card, .home-title {
@@ -66,6 +76,7 @@ li, .links, a, div, .card, .home-title {
     display: inline-block;
 }
 
+/*makes description appear to the right of the title and image div */
 .res-description {
     display: inline-block;
     width: 600px;
@@ -74,4 +85,4 @@ li, .links, a, div, .card, .home-title {
     margin-top: 115px;
 }
 
-/* make steps and ingredients inline-block so that they are side-by-side */
+/* make 'steps' and 'ingredients' inline-block so that they are side-by-side */
