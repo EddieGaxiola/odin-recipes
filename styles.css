@@ -82,7 +82,7 @@ li, .links, a, div, .card, .home-title {
 }
 
 /*makes caldo de res description appear to the right of the title and image div */
-.res-description {
+.res-description, .grilled-cheese.description {
     display: inline-block;
     width: 600px;
     text-align: center;
@@ -91,12 +91,12 @@ li, .links, a, div, .card, .home-title {
 }
 
 /* makes 'steps' and 'ingredients' inline-block so that they are side-by-side */
-.caldo-de-res-recipe {
+.recipe {
     display: inline-block;
     width: center;
 }
 
-.res-ingredients, .res-steps {
+.recipe-ingredients, .recipe-steps {
     display: inline-block;
     border-style: solid;
     border-width: 2px;
@@ -106,7 +106,7 @@ li, .links, a, div, .card, .home-title {
     vertical-align: text-top;
 }
 
-.res-steps {
+.recipe-steps {
     width: 890px;
 }
 .res-ul {
@@ -115,4 +115,8 @@ li, .links, a, div, .card, .home-title {
 
 .ing-title, .steps-title {
     text-align: center;
+}
+
+.grilled-cheese.card {
+    width: 1580px;
 }
