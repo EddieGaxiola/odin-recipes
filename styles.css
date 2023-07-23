@@ -82,7 +82,7 @@ li, .links, a, div, .card, .home-title {
 }
 
 /*makes caldo de res description appear to the right of the title and image div */
-.res-description, .grilled-cheese.description {
+.res-description, .grilled-cheese.description, .oxtail-description {
     display: inline-block;
     width: 600px;
     text-align: center;
@@ -109,7 +109,7 @@ li, .links, a, div, .card, .home-title {
 .recipe-steps {
     width: 890px;
 }
-.res-ul {
+.res-ul, .oxtail-ul {
     display: inline-block;
 }
 
@@ -119,4 +119,8 @@ li, .links, a, div, .card, .home-title {
 
 .grilled-cheese.card {
     width: 1580px;
+}
+
+.oxtail.card {
+    width: 1720px;
 }
