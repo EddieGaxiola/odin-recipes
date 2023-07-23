@@ -84,7 +84,7 @@ li, .links, a, div, .card, .home-title {
 /*makes caldo de res description appear to the right of the title and image div */
 .res-description, .grilled-cheese.description, .oxtail-description {
     display: inline-block;
-    width: 600px;
+    width: 60%;
     text-align: center;
     vertical-align: top;
     margin-top: 115px;
@@ -123,4 +123,8 @@ li, .links, a, div, .card, .home-title {
 
 .oxtail.card {
     width: 1720px;
+}
+
+.oxtail-description {
+    margin-left: 75px;
 }
