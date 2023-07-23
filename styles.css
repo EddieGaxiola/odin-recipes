@@ -8,6 +8,7 @@ img {
     width: 500px;
     height:auto;
     border: 5px solid;
+    border-radius: 15px;
     border-color: brown;
     box-shadow: 3px 3px rgb(82, 2, 2);
 }
@@ -49,6 +50,7 @@ p, ul, ol, li {
     display: inline-block;
     box-sizing: border-box;
     border-style: solid;
+    border-radius: 15px;
     box-shadow: 3px 3px rgb(82, 2, 2);
     border-width: 2px;
     border-color: darkred;
@@ -99,6 +101,7 @@ li, .links, a, div, .card, .home-title {
 .recipe-ingredients, .recipe-steps {
     display: inline-block;
     border-style: solid;
+    border-radius: 15px;
     border-width: 2px;
     border-color: darkred;
     margin: 5px;
